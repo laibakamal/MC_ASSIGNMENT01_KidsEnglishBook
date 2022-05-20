@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     tools:context=".MainActivity">
-    
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/goToRepo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go To Repository"
@@ -22,13 +22,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="362dp"
-        android:layout_height="251dp"
+        android:layout_width="295dp"
+        android:layout_height="258dp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.507"
+        app:layout_constraintTop_toBottomOf="@+id/goToRepo"
+        app:layout_constraintVertical_bias="0.577"
         app:srcCompat="@drawable/capture" />
 
     <Button
@@ -40,6 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
+        app:layout_constraintVertical_bias="0.645" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
