@@ -26,14 +26,14 @@
         app:layout_constraintVertical_bias="0.125"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
-        android:textAllCaps="false"
         android:background="@drawable/gradient_buttons"
-        app:strokeColor="#DA3737" />
+        android:textAllCaps="false"
+        />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="295dp"
-        android:layout_height="258dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toTopOf="@+id/goToBook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,13 +43,18 @@
 
     <Button
         android:id="@+id/goToBook"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:text="Go To Book"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.645"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/gradient_buttons"
+        android:textAllCaps="false"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
