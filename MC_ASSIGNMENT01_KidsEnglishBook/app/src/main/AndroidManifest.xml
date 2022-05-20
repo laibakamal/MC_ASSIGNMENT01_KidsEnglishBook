@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MC_ASSIGNMENT01_KidsEnglishBook">
         <activity
+            android:name=".AtoZ"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
