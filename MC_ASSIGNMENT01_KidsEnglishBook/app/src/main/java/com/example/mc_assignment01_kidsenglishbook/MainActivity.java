@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         goToBookBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2=new Intent(MainActivity.this,AtoZ.class);
+                Intent intent2=new Intent(MainActivity.this,options.class);
                 startActivity(intent2);
             }
         });
