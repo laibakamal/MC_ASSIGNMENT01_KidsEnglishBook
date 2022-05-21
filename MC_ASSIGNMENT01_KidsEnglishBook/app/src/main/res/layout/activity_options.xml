@@ -8,7 +8,7 @@
     tools:context=".options">
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/learn"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:text="Learn"
