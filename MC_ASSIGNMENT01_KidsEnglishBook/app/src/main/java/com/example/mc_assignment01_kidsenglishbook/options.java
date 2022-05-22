@@ -20,7 +20,8 @@ public class options extends AppCompatActivity {
 
         learnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 Intent intent1=new Intent(options.this,AtoZ.class);
                 startActivity(intent1);
             }
