@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MC_ASSIGNMENT01_KidsEnglishBook">
         <activity
+            android:name=".ques1"
+            android:exported="false" />
+        <activity
             android:name=".Ques1"
             android:exported="false" />
         <activity

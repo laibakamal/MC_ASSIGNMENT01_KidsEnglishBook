@@ -16,7 +16,7 @@ public class options extends AppCompatActivity {
 
 
         Button learnBtn=findViewById(R.id.learn);
-
+        Button examBtn=findViewById(R.id.exam);
 
         learnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +24,14 @@ public class options extends AppCompatActivity {
             {
                 Intent intent1=new Intent(options.this,AtoZ.class);
                 startActivity(intent1);
+            }
+        });
+
+        examBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2=new Intent(options.this,ques1.class);
+                startActivity(intent2);
             }
         });
     }
