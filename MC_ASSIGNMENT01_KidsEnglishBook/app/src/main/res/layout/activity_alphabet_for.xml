@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/forr"
-        android:layout_width="317dp"
-        android:layout_height="590dp"
+        android:layout_width="350dp"
+        android:layout_height="650dp"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="83dp"
         tools:srcCompat="@tools:sample/avatars" />

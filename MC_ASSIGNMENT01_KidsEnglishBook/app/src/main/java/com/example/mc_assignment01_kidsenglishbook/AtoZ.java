@@ -86,6 +86,7 @@ public class AtoZ extends AppCompatActivity {
             {
                 intent.putExtra("alphabet","K");
                 startActivity(intent);
+                break;
             }
             case R.id.l:
             {
