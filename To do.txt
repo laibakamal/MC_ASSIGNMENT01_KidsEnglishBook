@@ -1,0 +1,5 @@
+1) back wali cheez handle krni hai (finish func use kr k)
+
+2) exam module ko ek activity pe shift krna hai
+
+3) landscape mode
