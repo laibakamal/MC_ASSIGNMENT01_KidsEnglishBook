@@ -15,7 +15,7 @@ public class ques2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ques2);
 
-        Button LBtn=findViewById(R.id.correct2);
+        Button L=findViewById(R.id.correct2);
         Button KBtn=findViewById(R.id.k1);
         Button CBtn=findViewById(R.id.c1);
         Button ABtn=findViewById(R.id.a2);
