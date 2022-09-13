@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button goToRepoBtn=findViewById(R.id.goToRepo);
         Button goToBookBtn=findViewById(R.id.goToBook);
+        Button goToListView=findViewById(R.id.goToListView);
 
         goToRepoBtn.setOnClickListener(view -> {
             Uri uri = Uri.parse("https://github.com/laibakamal/MC_ASSIGNMENT01_KidsEnglishBook"); // missing 'http://' will cause crashed
@@ -29,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent2=new Intent(MainActivity.this,options.class);
                 startActivity(intent2);
+            }
+        });
+
+        goToListView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3=new Intent(MainActivity.this,AllAlphabets.class);
+                startActivity(intent3);
             }
         });
     }

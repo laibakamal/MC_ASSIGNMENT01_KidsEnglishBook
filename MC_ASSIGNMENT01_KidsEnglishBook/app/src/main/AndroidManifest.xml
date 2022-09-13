@@ -12,6 +12,11 @@
         <activity
             android:name=".congratulations"
             android:exported="false" />
+
+        <activity
+            android:name=".AllAlphabets"
+            android:exported="false" />
+
         <activity
             android:name=".ques5"
             android:exported="false" />
